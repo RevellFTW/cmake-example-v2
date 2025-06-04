@@ -30,16 +30,19 @@ may require different integration testing strategies.
 Assuming you have cmake and conan installed, run the following commands.
 
 ```
-mkdir build
-cd build
-conan install ..
-cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_VERBOSE_MAKEFILE=ON ..
-cmake --build ..
+bash build.sh
 ```
 
 ## Test
 
 ```
+cd build/Release
+ctest --verbose
+
+cd ../Debug
+ctest --verbose
+
+cd ../Final
 ctest --verbose
 ```
 
