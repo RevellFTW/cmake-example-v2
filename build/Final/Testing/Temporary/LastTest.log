@@ -1,0 +1,163 @@
+Start testing: Jun 04 18:50 CEST
+----------------------------------------------------------
+1/6 Testing: app1_test
+1/6 Test: app1_test
+Command: "/Users/krisztian.bertalan/Coding/cmake-example/build/Final/bin/app1"
+Directory: /Users/krisztian.bertalan/Coding/cmake-example/build/Final/tests
+"app1_test" start time: Jun 04 18:50 CEST
+Output:
+----------------------------------------------------------
+Factorial(5) = 120
+Sum(6, 2) = 8
+Sub(7, 3) = 4
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Factorial\(5\) = 120
+Sum\(6, 2\) = 8
+Sub\(7, 3\) = 4
+]
+"app1_test" end time: Jun 04 18:50 CEST
+"app1_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: app2_test
+2/6 Test: app2_test
+Command: "/Users/krisztian.bertalan/Coding/cmake-example/build/Final/bin/app2"
+Directory: /Users/krisztian.bertalan/Coding/cmake-example/build/Final/tests
+"app2_test" start time: Jun 04 18:50 CEST
+Output:
+----------------------------------------------------------
+Factorial(5) = 120
+Sum(6, 2) = 8
+Mul(7, 3) = 21
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Pass Reason:
+Required regular expression found. Regex=[Factorial\(5\) = 120
+Sum\(6, 2\) = 8
+Mul\(7, 3\) = 21
+]
+"app2_test" end time: Jun 04 18:50 CEST
+"app2_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: SumTest
+3/6 Test: SumTest
+Command: "/Users/krisztian.bertalan/Coding/cmake-example/build/Final/bin/SumTest"
+Directory: /Users/krisztian.bertalan/Coding/cmake-example/build/Final/tests/sum
+"SumTest" start time: Jun 04 18:50 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from SumTest
+[ RUN      ] SumTest.SumOf4And2Is6
+[       OK ] SumTest.SumOf4And2Is6 (0 ms)
+[ RUN      ] SumTest.SumOf0And2Is2
+[       OK ] SumTest.SumOf0And2Is2 (0 ms)
+[ RUN      ] SumTest.SumOf0And0Is0
+[       OK ] SumTest.SumOf0And0Is0 (0 ms)
+[----------] 3 tests from SumTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"SumTest" end time: Jun 04 18:50 CEST
+"SumTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: MulTest
+4/6 Test: MulTest
+Command: "/Users/krisztian.bertalan/Coding/cmake-example/build/Final/bin/MulTest"
+Directory: /Users/krisztian.bertalan/Coding/cmake-example/build/Final/tests/mul
+"MulTest" start time: Jun 04 18:50 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from MulTest
+[ RUN      ] MulTest.MulOf4And2Is8
+[       OK ] MulTest.MulOf4And2Is8 (0 ms)
+[ RUN      ] MulTest.MulOf2And0Is0
+[       OK ] MulTest.MulOf2And0Is0 (0 ms)
+[ RUN      ] MulTest.Mulof0And0Is0
+[       OK ] MulTest.Mulof0And0Is0 (0 ms)
+[----------] 3 tests from MulTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"MulTest" end time: Jun 04 18:50 CEST
+"MulTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: FactorialTest
+5/6 Test: FactorialTest
+Command: "/Users/krisztian.bertalan/Coding/cmake-example/build/Final/bin/FactorialTest"
+Directory: /Users/krisztian.bertalan/Coding/cmake-example/build/Final/tests/factorial
+"FactorialTest" start time: Jun 04 18:50 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from FactorialTest
+[ RUN      ] FactorialTest.Factorial5Is120
+[       OK ] FactorialTest.Factorial5Is120 (0 ms)
+[ RUN      ] FactorialTest.FactorialOf0Is1
+[       OK ] FactorialTest.FactorialOf0Is1 (0 ms)
+[----------] 2 tests from FactorialTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"FactorialTest" end time: Jun 04 18:50 CEST
+"FactorialTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: SubTest
+6/6 Test: SubTest
+Command: "/Users/krisztian.bertalan/Coding/cmake-example/build/Final/bin/SubTest"
+Directory: /Users/krisztian.bertalan/Coding/cmake-example/build/Final/tests/sub
+"SubTest" start time: Jun 04 18:50 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from SubTest
+[ RUN      ] SubTest.SubOf4And2Is2
+[       OK ] SubTest.SubOf4And2Is2 (0 ms)
+[ RUN      ] SubTest.SubOf2And0Is2
+[       OK ] SubTest.SubOf2And0Is2 (0 ms)
+[ RUN      ] SubTest.SubOf0And0Is0
+[       OK ] SubTest.SubOf0And0Is0 (0 ms)
+[ RUN      ] SubTest.SubOf0And1IsMaxUnsignedInt32
+[       OK ] SubTest.SubOf0And1IsMaxUnsignedInt32 (0 ms)
+[----------] 4 tests from SubTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"SubTest" end time: Jun 04 18:50 CEST
+"SubTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 04 18:50 CEST

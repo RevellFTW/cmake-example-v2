@@ -1,0 +1,1 @@
+. "/Users/krisztian.bertalan/Coding/cmake-example/conanrunenv-release-armv8.sh"

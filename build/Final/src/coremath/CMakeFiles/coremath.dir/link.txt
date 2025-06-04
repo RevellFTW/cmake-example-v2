@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libcoremath.a CMakeFiles/coremath.dir/coremath.cc.o CMakeFiles/coremath.dir/sum/sum.cc.o CMakeFiles/coremath.dir/mul/mul.cc.o CMakeFiles/coremath.dir/mul/private/private_sum.cc.o CMakeFiles/coremath.dir/factorial/factorial.cc.o CMakeFiles/coremath.dir/sub/sub.cc.o
+/usr/bin/ranlib ../../lib/libcoremath.a

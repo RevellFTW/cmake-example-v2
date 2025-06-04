@@ -1,0 +1,1 @@
+/usr/bin/c++ -stdlib=libc++ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/app2.dir/app2.cc.o -o ../bin/app2  ../lib/libcoremath.a

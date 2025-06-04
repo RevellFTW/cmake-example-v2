@@ -1,0 +1,7 @@
+app1_test 1 0.14338
+app2_test 1 0.133623
+SumTest 1 0.2221
+MulTest 1 0.137145
+FactorialTest 1 0.135353
+SubTest 1 0.141555
+---

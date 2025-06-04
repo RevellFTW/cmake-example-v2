@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/krisztian.bertalan/Coding/cmake-example/build/Final/cmake_install.cmake",
+		"/Users/krisztian.bertalan/Coding/cmake-example/build/Final/src/coremath/cmake_install.cmake",
+		"/Users/krisztian.bertalan/Coding/cmake-example/build/Final/apps/cmake_install.cmake",
+		"/Users/krisztian.bertalan/Coding/cmake-example/build/Final/tests/cmake_install.cmake",
+		"/Users/krisztian.bertalan/Coding/cmake-example/build/Final/tests/sum/cmake_install.cmake",
+		"/Users/krisztian.bertalan/Coding/cmake-example/build/Final/tests/mul/cmake_install.cmake",
+		"/Users/krisztian.bertalan/Coding/cmake-example/build/Final/tests/factorial/cmake_install.cmake",
+		"/Users/krisztian.bertalan/Coding/cmake-example/build/Final/tests/sub/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
