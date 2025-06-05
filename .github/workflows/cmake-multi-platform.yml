@@ -68,7 +68,7 @@ jobs:
         conan profile detect --force
 
     - name: Install dependencies with Conan
-      run: conan install .. --build=missing
+      run: conan install . --build=missing
 
     - name: Set reusable strings
       # Turn repeated input strings (such as the build output directory) into step outputs. These step outputs can be used throughout the workflow file.
